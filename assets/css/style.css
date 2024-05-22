@@ -19,3 +19,15 @@
     --font-size-sub: 2rem;
     --font-size-content: 1.25rem;
 }
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cabecalho{
+    display: flex;
+}
