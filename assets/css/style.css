@@ -28,6 +28,15 @@ a{
     text-decoration: none;
 }
 
-#cabecalho{
+.logo{
+    height: 75px;
+}
+
+.nav-bar{
+
+}
+
+.links-container{
     display: flex;
+    gap: 50px;
 }
