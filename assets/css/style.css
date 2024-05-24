@@ -18,15 +18,15 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    animation: eating-path 0.5s linear infinite;
+    animation: eating-path 1s linear infinite;
 }
 
 .path::before{
     content: "";
     background-color: #fff;
-    height: 0.7rem;
-    width: 0.7rem;
-    border-radius: 50px;
+    height: 0.9rem;
+    width: 0.9rem;
+    border-radius: 10px;
 }
 
 @keyframes eating-path {
@@ -55,7 +55,7 @@ body{
 }
 
 .pacman::before{
-    animation: chunk-top 0.5s ease infinite;
+    animation: chunk-top 1s ease infinite;
     border: 35px solid #ffcc00;
     border-left-color: transparent;
     border-bottom-color: transparent;
@@ -70,7 +70,7 @@ body{
 }
 
 .pacman::after{
-    animation: chunk-bottom 0.5s ease infinite;
+    animation: chunk-bottom 1s ease infinite;
     border: 35px solid #ffcc00;
     border-right-color: transparent;
     border-top-color: transparent;
